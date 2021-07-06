@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digital Vadharva</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+ <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+ <script src="js/lightbox-plus-jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<style>
+  html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+  .normal-font
+  {
+    font-weight:400;
+  }
+  .theme_color
+  {
+    color:#618685;
+  }
+  
+#donation
+{
+  color:gray;
+}
+ 
+ 
+ 
+ 
+
+  .tabs .nav-pills .nav-item{
+    margin-bottom: 10px;
+}
+.tabs .nav-pills .nav-item .nav-link{
+   
+    
+    color:black;
+    font-weight:bold;
+    
+    font-size:20px;
+   
+}
+.tabs .nav-pills .nav-item .nav-link span{
+    
+    font-size:30px;
+}
+
+.tabs .tab-content{
+   
+    padding:10px;
+}
+.tabs .tab-content .img{/*images-size for this section 1000 x 667 */
+    width:90%;
+    height:400px;
+    padding:30px;
+    margin-bottom:20px;
+}
+.tabs .tab-content h3{
+    font-weight:bold;
+
+}
+.tabs .tab-content h3 a{
+    color:black;
+}
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background: white;
+}
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#time {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+ 
+}
+#time1 {
+  min-height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+ 
+}
+.timeline {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#timeul {
+  list-style: none;
+}
+.timli {
+  padding: 10px 35px 10px 35px;
+  background-color: #77a8a8;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.timli:last-child {
+  margin-bottom: 0;
+}
+.timeline-content h1 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.timeline-content p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 300;
+}
+.timeline-content .date {
+  color:black;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+@media only screen and (min-width: 768px) {
+  .timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background-color: gray;
+  }
+  .timli {
+    width: 50%;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  .timli:nth-child(odd) {
+    float: left;
+    clear: right;
+    transform: translateX(-30px);
+    border-radius: 20px 0px 20px 20px;
+  }
+  .timli:nth-child(even) {
+    float: right;
+    clear: left;
+    transform: translateX(30px);
+    border-radius: 0px 20px 20px 20px;
+  }
+  .timli::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    top: 0px;
+  }
+  .timli:nth-child(odd)::before {
+    transform: translate(50%, -50%);
+    right: -30px;
+  }
+  .timli:nth-child(even)::before {
+    transform: translate(-50%, -50%);
+    left: -30px;
+  }
+  .timeline-content .date {
+    position: absolute;
+    top: -30px;
+  }
+  .timli:hover::before {
+    background-color: black;
+  }
+}
+
+
+
+a
+{
+  text-decoration:none;
+}
+#navbarNav
+{
+  display:flex;
+  justify-content:flex-end;
+
+}
+
+
+.custom-nav-item a
+{
+  margin:5px 15px;
+  padding:5px;
+}
+.nav a
+{    
+  z-index:3;
+  
+  
+  text-align: center;
+  cursor:pointer;
+  color:black;
+  
+  
+}
+
+
+.carousel-inner img{
+  height:1000px;
+  opacity:2;
+}
+.carousel-inner{
+  
+  height:1000px;
+  width: 100%;
+   // Add this
+   opacity:2;
+
+  }
+ 
+
+ 
+  #heads
+  {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+  }
+  @media (max-width:762px)
+  {
+    #donor
+    {
+      width:400px;
+      height:300px;
+    }
+
+  }
+  
+  .parallax {
+  /* The image used */
+  background-image: url("edu2.jpg");
+
+  /* Set a specific height */
+  min-height: 250px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  /* The image used */
+  background-image: url("stop.jpg");
+
+  /* Set a specific height */
+  min-height: 400px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 576px) { 
+
+
+.carousel-inner img{
+  height:300px;
+  opacity:2;
+}
+.carousel-inner{
+  
+  height:300px;
+  width: 400px;
+   // Add this
+   opacity:2;
+
+  }
+}
+
+
+@media (max-width: 800px) { 
+  .carousel-inner img{
+  height:500px;
+  opacity:2;
+}
+.carousel-inner{
+  
+  height:500px;
+  width: 100%;
+   // Add this
+   opacity:2;
+
+  }
+
+
+}
+
+
+@media (max-width: 576px)
+{
+     
+ 
+
+     #post
+     {
+       width:580px;
+       height:50px;
+     }
+     #don
+     {
+       width:600px;
+       height:50px;
+     }
+     .tabs .tab-content .img{/*images-size for this section 1000 x 667 */
+    width:70%;
+    height:80px;
+    padding:20px;
+    margin-bottom:20px;
+}
+}
+.card-body
+{
+  padding:50px;
+}
+.overlay .dets{
+  visibility:hidden;
+}
+#overlayss2:hover .overlay
+{ height:100%;
+  background-color: rgba(48, 82, 133, 0.9);
+  opacity:0.7;
+  
+}
+
+
+#overlayss2:hover .overlay .text
+{ visibility:hidden;
+
+}
+#overlayss2:hover .overlay .dets
+{ visibility:visible;
+
+}
+.dets{
+
+  
+  position: absolute;
+  top: 80%;
+ left:25%;
+  
+
+}
+
+.overlay {
+ 
+  position: absolute;
+  bottom: 0;
+ 
+  left: 0;
+  right: 0;
+  background-color:rgba(0, 0, 0, 0.2);
+  opacity:0.7;
+  padding:42px;
+  width: 100%;
+  text-align:top;
+  height:10%;
+ 
+  transition: .5s ease;
+  
+}
+.text
+{
+  color:white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+  font-weight:bold;
+  border-bottom:solid 1px yellow;
+  padding:5px;
+}
+.card:hover
+{
+  transform: translateY(-5px);
+
+border-bottom:2px solid black;
+}
+.card-body
+{
+  background-color:#77a8a8;
+}
+.button:hover
+{
+  background-color:black;
+}
+
+.zoom-in img
+{
+  transform:scale(1);
+  transition:0.3s ease-in-out;
+cursor:zoom-in;
+}
+.zoom-in:hover img
+{
+  transform:scale(1.5);
+
+}
+
+
+
+</style>
+  
+    <body>
+   
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="head.png" style="width:250px;height:70px;">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto" id="navss">
+      <li class="nav-item p-3">
+        <a class="nav-link ulss" href="#" style="color:black;font-weight:bold;border-bottom:2px solid red;">Home</a>
+
+      </li>
+       <li class="nav-item p-3">
+        <a class="nav-link ulss" href="#who"style="color:black;font-weight:bold;">About</a>
+      </li>
+      <li class="nav-item p-3">
+        <a class="nav-link ulss" href="#regis"style="color:black;font-weight:bold;">Register</a>
+      </li>
+       <li class="nav-item p-3">
+        <a class="nav-link ulss" href="#footer"style="color:black;font-weight:bold;">Contact</a>
+      </li>
+       <li class="nav-item p-3">
+        <a class="nav-link ulss" href="index.html"style="color:black;font-weight:bold;">Digital Vidharva</a>
+      </li>
+     
+    </ul>
+    
+  </div>
+</nav>
+
+            
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+  <div class="carousel-item active">
+    <img class="d-block w-100" src="board.jpg">
+    <div class="carousel-caption d-none d-md-block">
+    <h1 style="position:absolute;bottom:1350%;left:30%;text-align:center;font-size:70px;">DIGITAL VIDARBHA</h1>
+      <p style="position:absolute;bottom:1050%;left:15%;text-align:center;font-size:30px;" > A step towards digital literacy, skill development and employment in the post-covid world.
+</p>
+<button type="button" class="btn btn-success" style="position:absolute;bottom:850%;left:50%;padding:20px;"><a href="#who" style="text-decoration:none;color:white;">JOIN US TO UP SKILLS</a></button>
+</h2>
+</div>
+      
+    </div>
+   
+
+   
+    
+   
+   
+    <div class="carousel-item">
+      <img class="d-block w-100" src="pro2.jpg" alt="Second slide">
+      
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="pro1.jpg" alt="Third slide" >
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+ </div>
+ <section>
+          <div class="container mt-5" id="who">
+            <h2 id="heads"style="text-align:center;">Who<span class="normal-font theme_color"> are we? </span></h2>
+              <div class="row mx-auto pt-5"  >
+                <div class ="col col-lg-4 col-12 ">
+                  <img src="recruit.png" class="img-fluid" style="width:600px;height:500px;">
+                </div>
+                <div class="col col-lg-8 col-12" style="padding-left:30px;">
+                      
+                     
+                      
+                  
+              <!------>
+              <div class="row tabs mt-5 d-flex flex-column">
+                  <div class="col col-lg-12 col-12">
+                      <ul class="nav  nav-pills nav-fill d-md-flex d-block flex-row ">
+                          <li class="nav-item text-left top">
+                              <a class="nav-link active py-4 "data-toggle="tab"
+                              href="#about-1" style="text-decoration:none;" >GirlScript Foundation</a>
+                              
+                          </li>
+                          <li class="nav-item text-left top">
+                            <a class="nav-link py-4 "data-toggle="tab"
+                            href="#about-2" style="text-decoration:none;" >Yuva Foundation</a>
+                            
+                        </li>
+                        <li class="nav-item text-left top">
+                            <a class="nav-link py-4 "data-toggle="tab"
+                            href="#about-3"style="text-decoration:none;" >Crowdera</a>
+                            
+                        </li>
+                       
+                      </ul>
+                  </div>
+                  <!----->
+                
+                  <div class="col col-lg-12 xs-12 col-12">
+                      <div class="tab-content">
+                          <div class="tab-pane container p-0 active"id="about-1">
+           
+            
+              <img class="img"src="gslogo_new21.png"  id="img1">
+            
+            
+           
+            <p>GirlScript Foundation is registered under Govt. of India as a section 8 non-profit company since 2017. We have impacted 5,00,000+ learners in 77 cities and 34+ countries globally. Our mission is to help beginners in tech education and make them employable.</p>
+                        <button type="button" style="padding:15px;background-color: #618685;border: none;border-radius:5px;color:white;font-weight:bold;"><a href="https://www.girlscript.tech/home"style="color:white;text-decoration:none;">VISIT WEBSITE </a></button>   </div> 
+                          <!----->
+             <div class="tab-pane container p-0"id="about-2">
+              <img class="img"src="logo2.png" id="img2">
+            
+             
+               <p>YUVA Foundation was established in 2016 with an aim to conduct youth empowerment programs and placement opportunities. The foundation has taken the initiative to organize many job fairs, job fests, and placement drives all over Maharashtra.</p>
+                  <button type="button" style="padding:15px;background-color: #618685;border: none;border-radius:5px;color:white;font-weight:bold;"><a href="http://yuvafoundations.in/"style="color:white;text-decoration:none;" >VISIT WEBSITE </a></button>   </div>
+            <!----->
+            <div class="tab-pane container p-0"id="about-3">
+              <img class="img"src="gslogo_new21.png"  id="img3">
+             
+             
+               <p>Crowdera is a fee-free global online fundraising platform for nonprofits and social innovators serving individuals and communities. Crowdera helps fundraisers to build meaningful engagement, spread their messages, and expand their donor base. Our focus is to empower global nonprofits</p>
+                    <button type="button" style="padding:15px;background-color: #618685;border: none;border-radius:5px;color:white;font-weight:bold;"><a href="https://www.gocrowdera.com/" style="color:white;text-decoration:none;">VISIT WEBSITE </a></button> </div>
+            <!----->
+           
+            <!----->
+                      </div>
+                  </div>
+                 </div>
+                          
+                     </div> 
+                  </div>
+              </div>
+            </div>
+</section>
+          <section class="mt-5"style="background-color:#F0F8FF">
+            <div class="container">
+   <div class="row mx-auto pt-5" >
+     
+    <div class= " col col-lg-7 xs-12 col-12" >
+    <div >
+      <h1 style="font-size:70px;">Post Covid World?</h1>
+     <hr style="width: 15%;margin-right: auto;background-color:#618685;border-width: 4px;">
+     </hr>
+     
+
+    </div>
+    <br>
+    <div>
+      <p style="font-size:20px;color:gray;"> Together, we are pledging to upskill 10,000 youths by 2023 so that they will become able enough to work from home via online business or jobs considering post Covid-19 scenarios and adapt to new normal in the industry.</p>
+     <br>
+     <button type="button"  style="padding:15px;background-color:#618685;border: none;border-radius:5px;color:white;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSd_5b0S6qvhM8ynGOq-nEa0s1uo0Ri36UZz-Y9YlotF6vcIug/viewform" style="color:white;text-decoration:none;font-weight:bold;">Book Your Seat Now</a></button>
+    
+       
+</div>
+   </div>
+   <div class= "col col-lg-5 xs-12 col-12">
+       
+<img src="post covid.png" class="img-fluid" style="height:500px;width:700px" id="post">
+   </div>
+ </div>
+ </section>
+  <div class="parallax"></div>
+  
+          <section style="background-color:#F0F8FF">
+            <div class="container-fluid">
+   <div class="row mx-auto pt-5" >
+     <div class= "col col-lg-6 col-12">
+       
+<img src="donate.png" class="img-fluid" style="height:550px;width:700px;" id="don">
+   </div>
+    <div class= " col col-lg-6 col-12">
+    <div >
+      <h1 style="font-size:70px;">How can we help?</h1>
+     <hr style="width: 15%;margin-right: auto;background-color:#618685;border-width: 4px;">
+     </hr>
+     
+
+    </div>
+    <br>
+    <div>
+      <ul id="donation">
+    <li> Monetary Sponsorship/CSR Funds/Donation</li>
+<li>Provide an offline location for establishing centers</li>
+<li>Industrial Visit and Exposure</li>
+<li>Offer pro-bono Hardware & Software Product/Services</li>
+<li>Hire interns, part-time or full-time employees</li>
+<li>Promote us in your network online & offline</li>
+<li>Bring more relevant partnerships</li>
+  <li>Volunteer with us on weekends</li>
+</ul>
+</div>
+     <br>
+     <button type="button" style="padding:15px;background-color:#618685;border: none;border-radius:5px;color:white;"><a href="https://gocrowdera.com/Digital-Vidarbha " style="text-decoration:none;color:white;font-weight:bold;">Donate Here</a></button>
+    
+       
+</div>
+   </div>
+ </div>
+ </section>
+ 
+  <section class="mt-5">
+  <h2 id="heads"style="text-align:center;">Course<span class="normal-font theme_color"> Curriculum</span> </h2>
+   
+   <div class="container justify-content-center align-items-center mt-5" id="cont">
+  <div class="row" id="cardsrow">
+    <div class="col-12 mb-2  col-xl-4">
+  <div class="card" >
+    
+    
+
+    <div class="card-body " style="padding:38px;">
+      <h5 class="card-title" style="color:white; text-align:center;color:black;">(Cohort Begin)</h5>
+      <p class="card-text" style="color:white;text-align:center;" id="tooltip"><ul>
+          <li style="color:white;"> Application begin for cohort-1 </li>
+            <li style="color:white;"> Selection of top 1000 Deserving Candidates </li>
+              <li style="color:white;"> Online Classes Starting from 10th May 2021 </li>
+
+         </ul></p>
+     
+       
+       <div id="overlayss2">
+      <div class="overlay">
+      
+           <div class="text"> 15 April - 11 july</div>
+                 <div class="dets" style="position: absolute;
+  top: 70%;
+ left:30%;"> <div style="text-align:center;color:white;">15th july- 21st july</div>
+                 </div>
+            
+            </div>
+            </div>
+      
+    </div>
+  </div>
+    
+  </div>
+
+ <div class="col-12 mb-2  col-xl-4">
+  <div class="card" >
+    
+    
+
+    <div class="card-body ">
+      <h5 class="card-title" style="color:white; text-align:center;color:black;">(English/Public Speaking)</h5>
+      <p class="card-text" style="color:white;" id="tooltip"><ul>
+
+          <li style="color:white;"> Communication Skills</li>
+<li style="color:white;">Communication in English</li>
+            <li style="color:white;"> Listening Skill
+</li>
+              <li style="color:white;"> Communication in Organization </li>
+
+         </ul></p>
+     
+       <div id="overlayss2">
+      <div class="overlay">
+      
+           <div class="text"> 12 july - 17 july</div>
+                 <div class="dets" style="position: absolute;
+  top: 70%;
+ left:30%;"> <div style="text-align:center;color:white;">15 july- 17 july</div>
+                 </div>
+            
+            </div>
+            </div>
+       
+      
+    </div>
+  </div>
+    
+  </div>
+  
+  <div class="col-12 mb-2  col-xl-4">
+   <div class="card">
+    
+    
+
+    <div class="card-body " >
+      <h5 class="card-title" style="color:white; text-align:center;color:black;">(Formal Documents writing)</h5>
+      <p class="card-text" style="color:white;" id="tooltip"><ul> 
+
+
+          <li style="color:white;"> Resume/CV Building</li>
+<li style="color:white;">Email Writing </li>
+            <li style="color:white;"> Documentation Writing </li>
+              <li style="color:white;"> Letter Writing</li>
+
+         </ul></p>
+         <div id="overlayss2">
+      <div class="overlay">
+      
+           <div class="text"> 18 july - 20 july</div>
+                 <div class="dets" style="position: absolute;
+  top: 70%;
+ left:30%;"> <div style="text-align:center;color:white;">18 july- 20 july</div>
+                 </div>
+            
+            </div>
+            </div>
+     
+       
+       
+      
+    </div>
+  </div>
+    
+  </div>
+</div>
+ <div class="row" id="cardsrow">
+   
+<div class="col-12 mb-2 col-xl-4">
+ <div class="card" >
+    
+    
+
+    <div class="card-body " >
+      <h5 class="card-title" style="color:white; text-align:center;color:black;">(Designing and Editing Skills)</h5>
+      <p class="card-text" style="color:white;" id="tooltip"><ul>
+
+
+
+ 
+
+          <li style="color:white;"> Introduction to Canva </li>
+            <li style="color:white;">Features and uses of Canva
+</li>
+              <li style="color:white;"> Creating Graphics </li>
+
+         </ul></p>
+     
+       
+       <div id="overlayss2">
+      <div class="overlay">
+      
+           <div class="text"> 21 july - 29 july</div>
+                 <div class="dets" style="position: absolute;
+  top: 70%;
+ left:30%;"> <div style="text-align:center;color:white;">21 july- 29 july</div>
+                 </div>
+            
+            </div>
+            </div>
+      
+    </div>
+  </div>
+    
+  </div>
+ <div class="col-12 mb-2  col-xl-4">
+   <div class="card">
+    
+    
+
+    <div class="card-body " style="padding:45px;">
+      <h5 class="card-title" style="color:white; text-align:center;color:black;">(Computer and Mobile Skills)</h5>
+      <p class="card-text" style="color:white;" id="tooltip"><ul>
+
+
+
+ 
+
+
+
+          <li style="color:white;"> Basic Computer Skill </li>
+            <li style="color:white;"> Basic Mobile Applications </li>
+              <li style="color:white;"> Internet Browsing </li>
+              <li style="color:white;">Cyber Literacy</li>
+
+         </ul></p>
+     
+       <div id="overlayss2">
+      <div class="overlay">
+      
+           <div class="text"> 30 july - 10 August</div>
+                 <div class="dets" style="position: absolute;
+  top: 70%;
+ left:30%;"> <div style="text-align:center;color:white;">30 july- 10 August</div>
+                 </div>
+            
+            </div>
+            </div>
+       
+      
+    </div>
+  </div>
+    
+  </div>
+  
+<div class="col-12 mb-2  col-xl-4">
+  <div class="card">
+    
+    
+
+    <div class="card-body " >
+      <h5 class="card-title" style="color:white; text-align:center;color:black;">(Basic Computer Software Skills)</h5>
+      <p class="card-text" style="color:white;" id="tooltip"><ul>
+
+
+
+ 
+ 
+
+
+
+          <li style="color:white;"> Microsoft Office </li>
+            <li style="color:white;"> Zoom/Meet/Teams/Webex </li>
+              <li style="color:white;"> Media Players</li>
+
+         </ul></p>
+     
+       
+       <div id="overlayss2">
+      <div class="overlay">
+      
+           <div class="text"> 11 August - 16 August</div>
+                 <div class="dets" style="position: absolute;
+  top: 70%;
+ left:30%;"> <div style="text-align:center;color:white;">11 August- 16 August</div>
+                 </div>
+            
+            </div>
+            </div>
+      
+    </div>
+  </div>
+    
+  </div>
+</div>
+ <div class="row" id="cardsrow">
+<div class="col-12 mb-2  col-xl-4">
+ 
+ <div class="card">
+    
+    
+
+    <div class="card-body ">
+      <h5 class="card-title" style="color:white; text-align:center;color:black;">(Social Media Skills)</h5>
+      <p class="card-text" style="color:white;" id="tooltip"><ul>
+
+
+
+ 
+
+
+          <li style="color:white;"> What is Social Media </li>
+            <li style="color:white;"> Account Creation </li>
+              <li style="color:white;"> Advantages of Social Media</li>
+
+         </ul></p>
+     
+       
+       <div id="overlayss2">
+      <div class="overlay">
+      
+           <div class="text"> 17 August - 20 August</div>
+                 <div class="dets" style="position: absolute;
+  top: 70%;
+ left:30%;"> <div style="text-align:center;color:white;">17 August- 20 August</div>
+                 </div>
+            
+            </div>
+            </div>
+      
+    </div>
+  </div>
+    
+  </div>
+<div class="col-12 mb-2   col-xl-4">
+  <div class="card" >
+    
+    
+
+    <div class="card-body " style="padding:40px;">
+      <h5 class="card-title" style="color:white; text-align:center;color:black;">(Office Work Skills)</h5>
+      <p class="card-text" style="color:white;" id="tooltip"><ul>
+
+
+
+
+
+
+
+          <li style="color:white;"> Research and Development </li>
+            <li style="color:white;"> Analytical and Numerical Skills</li>
+              <li style="color:white;"> Data Handling </li>
+<li style="color:white;">Advance Ms-Excel Functions</li>
+         </ul></p>
+     
+       <div id="overlayss2">
+      <div class="overlay">
+      
+           <div class="text"> 21 August - 28 August</div>
+                 <div class="dets" style="position: absolute;
+  top: 70%;
+ left:30%;"> <div style="text-align:center;color:white;">21 August- 28 August</div>
+                 </div>
+            
+            </div>
+            </div>
+       
+      
+    </div>
+  </div>
+    
+  </div>
+  
+<div class="col-12 mb-2   col-xl-4">
+  <div class="card" >
+    
+    
+
+    <div class="card-body " >
+      <h5 class="card-title" style="color:white; text-align:center;color:black;">(Work From Home Skills)</h5>
+      <p class="card-text" style="color:white;" id="tooltip"><ul>
+
+
+
+
+
+
+
+
+
+          <li style="color:white;"> Camera Placement </li>
+            <li style="color:white;"> Environment Selection</li>
+              <li style="color:white;"> Etiquette </li>
+
+         </ul></p>
+     
+       <div id="overlayss2">
+      <div class="overlay">
+      
+           <div class="text"> 29 August - 30 August</div>
+                 <div class="dets" style="position: absolute;
+  top: 70%;
+ left:30%;"> <div style="text-align:center;color:white;">29 August- 30 August</div>
+                 </div>
+            
+            </div>
+            </div>
+       
+      
+    </div>
+  </div>
+    
+  </div>
+</div>
+</section>
+  
+<section class="mt-5">
+  <h2 id="heads"style="text-align:center;">Offline<span class="normal-font theme_color"> Classes</span> </h2>
+  <div class="container mt-2" id="time1">
+  <div class="timeline">
+    <ul id="timeul">
+      <li class="timli">
+        <div class="timeline-content">
+          <h3 class="date"> 5 September – 15 September</h3>
+
+          <p style="text-align:center;font-weight:bold;">(Offline Classes)</p>
+         <ul>
+
+
+
+
+
+
+
+
+
+
+
+
+          <li> Domain Based Guidance</li>
+            <li> Q&A </li>
+              <li> Mock Interview </li>
+<li>Group Discussion</li>
+<li>Industry Expert Session</li>
+<li>Full day Training</li>
+         </ul>
+        
+        </div>
+      </li>
+      <li class="timli">
+        <div class="timeline-content">
+          
+
+           <p style="text-align:center;font-size:30px;color:black;">Note</p>
+          <p>The offline classes will be conducted at skill development center based in Nagpur. All necessary precautions will be taken and guidelines given by the government will be followed.The Commencement of Offline classes may get postponed based on the Covid Situations in Nagpur during that time
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<div style="display:flex;justify-content:center;align-items:center;" id="regis">
+ <button type="button" style="padding:15px 30px;margin-left:auto;margin-right:auto;background-color:#618685;border: none;border-radius:5px;color:white;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSd_5b0S6qvhM8ynGOq-nEa0s1uo0Ri36UZz-Y9YlotF6vcIug/viewform" style="text-decoration:none;color:white;font-weight:bold;">Register Now</a></button>
+</div>
+   <div class="parallax2 mt-3"></div>
+   <section  class="container mt-4 mb-5 " >
+ <h2 id="heads"style="text-align:center;">Press<span class="normal-font theme_color"> Coverage</span></h2>
+
+<main class="mt-5">
+   <div class="row">
+  <div class="col-4">
+  <div id="div6"> <div class="zoom-in"><figure ><img src="img1.jpeg" class="img-fluid mx-auto" data-lightbox="mygallery" ></figure></div>
+ </div>
+</div>
+ <div class="col-4">
+  <div id="div4"> <div class="zoom-in"><figure><img src="img4.jpeg" class="img-fluid "></figure> </div></div>
+</div>
+<div class="col col-4">
+  <div id="div5"> <div class="zoom-in"><figure><img src="img5.jpeg" class="img-fluid mx-auto"></figure> </div></div>
+</div>
+</div>
+  <div class="row">
+    <div class="col col-4">
+  <div id="div1"> <div class="zoom-in"><figure> <img src="img2.jpeg" class="img-fluid mx-auto" ></figure></div> </div>
+</div>
+ <div class="col col-4">
+  <div id="div3"> <div class="zoom-in"><figure><img src="img3.jpeg" class="img-fluid mx-auto"></figure> </div>
+ 
+ </div>
+</div>
+
+</div>
+
+ </main>
+</section>
+<section  id="footer">
+  <div style="height:100px;background-color:black;display:flex;justify-content:center;"><p style="text-align:center;color:white;margin-top:auto;margin-bottom:auto;"> Designed by @ abcd </p></div>
+</section>
+</body>
+</html>
+ 
